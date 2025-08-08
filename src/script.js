@@ -9,3 +9,5 @@ function flipCoin() {
     document.querySelector("#result").textContent = "heads";
   }
 }
+
+document.querySelector("#flip-button").addEventListener("click", flipCoin);
